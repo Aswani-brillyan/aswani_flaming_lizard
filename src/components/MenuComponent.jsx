@@ -1,17 +1,8 @@
-const menuComponent = () => {
-    return (    
-        <div>
-            <h1>Le` Menu</h1>
-        </div>
-     );
-}
- 
-export default menuComponent;
 import axios from "axios";
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 
-const GetProduct = () => {
+const menuComponent = () => {
    let [products, setProducts] = useState([])
    let [loading, setLoading] = useState('')
    let [error, setError] = useState('')
@@ -77,4 +68,4 @@ const GetProduct = () => {
    );
 }
 
-export default GetProduct;
+export default menuComponent;
