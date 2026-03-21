@@ -1,13 +1,6 @@
-const navbarComponent = () => {
-    return (    
-        <div>
-            <h1>Navbar</h1>
-            <button className="btn btn-dark">example</button>
-        </div>
-     );
-}
+
  
-expimport { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
     const user = JSON.parse(localStorage.getItem("user"))
@@ -47,4 +40,3 @@ const Navbar = () => {
 }
 
 export default Navbar;
-ort default navbarComponent;

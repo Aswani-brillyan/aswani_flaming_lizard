@@ -1,12 +1,4 @@
-const signUpComponent = () => {
-    return ( 
-        <div>
-            <h1>Sign up component</h1>
-        </div>
-     );
-}
- 
-export default signUpComponent;
+
 import axios from "axios";
 import { useState } from "react";
 import { Link } from "react-router-dom";
