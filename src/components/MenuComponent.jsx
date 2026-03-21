@@ -8,15 +8,15 @@ const menuComponent = () => {
    let [error, setError] = useState('')
 
    //base url for image location
-   const img_url='https://kmuturi.alwaysdata.net/static/images/'
+   const img_url='https://aswanibrillyan.alwaysdata.net/static/images/'
    let navigator = useNavigate()
    //function to fetch products from the server 
    const getProduct = async () => {
       setError('')
-      setLoading('fetching product please wait...');
+      setLoading('fetching the menu for you please wait...');
 
       try {
-         const response = await axios.get("https://kmuturi.alwaysdata.net/api/get_products")
+         const response = await axios.get("https://aswanibrillyan.alwaysdata.net/api/get_products")
          console.log(response)
          if (response.status === 200) {
             setLoading('')
